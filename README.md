@@ -34,8 +34,6 @@ POST auth/register
     "message": "User registered successfully!"
 }
 ```
-
-```
 ## Login
 ```bash
 POST /auth/login
@@ -62,7 +60,6 @@ POST /user/edit-profile
 | `Id`              | int     | Required.   |
 | `newUsername`     | varchar | Required.   |
 | `newPassword`     | varchar | Required.   |
-| `newProfileData`  | varchar | Required.   |
 ## Response
 ```bash
     message: "Profile updated successfully!"
