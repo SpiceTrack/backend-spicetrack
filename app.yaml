@@ -1,11 +1,4 @@
 runtime: nodejs20
 
-env_variables:
-  DB_HOST: "34.101.112.6" 
-  DB_USER: "root"
-  DB_PASSWORD: "&s*J1s%%&n5o)Cfx"
-  DB_NAME: "db-ujicoba"
 
-beta_settings:
-  cloud_sql_instances: "uji-coba-deploy-443300:asia-southeast2:uji-coba-database"
 
